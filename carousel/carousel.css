@@ -48,7 +48,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+ /* margin: 5rem 0; *//* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -77,8 +77,62 @@ body {
 
 @media (min-width: 62em) {
   .featurette-heading {
-    margin-top: 7rem;
+    margin-top: 0;
   }
 }
 /* *********************************************************************
 ------------------------------------------------------------------------*/
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+
+.featurette-divider {
+  margin-bottom: 5rem 0;
+}
+
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.col-md-5 {
+  flex: 0 0 auto;
+  width: 41.66666667%;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row>* {
+  flex-shrink: 0;
+  
+  max-width: 100%;
+  /*padding-right: calc(var(--bs-gutter-x) * .5);*/
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-top: var(--bs-gutter-y);
+  margin-bottom: 1rem;
+}
+.col-md-7 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  width: 58.33333333%;
+  flex-direction: column;
+  padding-right: 6rem;
+  margin-bottom: 3em;
+}
