@@ -9,7 +9,7 @@
 
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
-  <head><script src="../assets/js/color-modes.js"></script>
+  <head><script src="/assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +24,9 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="FaqStyle.css">
+
 
 
     <style>
@@ -162,65 +164,38 @@
         </div>
         
 
-    <header data-bs-theme="dark">
-    <!--<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Carousel</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-  -->
-  <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand ms-2" href="index.html">Dreamstalk</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ms-auto mb-2 mb-md-0 custom-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="aboutUsPage.html">Hakkımızda</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="eventsPage.html">Etkinlikler</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="comiteePage.html"> Komiteler</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="FrequentlyAsked2.html">S.S.S</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="contacts.html">İletişim</a>
-          </li>
-        </ul>
-      </div>
+<header data-bs-theme="dark">
+    
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-2" href="index.html">Dreamstalk</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ms-auto mb-2 mb-md-0 custom-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="aboutUsPage.html">Hakkımızda</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="eventsPage.html">Etkinlikler</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="comiteePage.html"> Komiteler</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="FrequentlyAsked2.html">S.S.S</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contacts.html">İletişim</a>
+        </li>
+      </ul>
     </div>
-  </nav>
-    </header>
+  </div>
+</nav>
+      
+</header>
 
 
 
@@ -230,12 +205,12 @@
       
       <div class="carousel-inner">
        
-        <div class="carousel-item active">
+        <div class="carousel-item-faq active">
           <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
           <div class="container">
             <div class="carousel-caption">
-              <h1>Komite Adı.</h1>
-              <p>ve isteğe bağlı olarak burada bir şeyler yazılabilir. Yazılmazsa da silerim. </p>
+              <h1>Sıkça Sorulan Sorular</h1>
+              <p>İlk slayt için temsilci içerik yer tutucusu. Arkada resim de olacak tabi. </p>
               <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
             </div>
           </div>
@@ -246,70 +221,132 @@
     </div>
 
     <div class="container marketing">
-      <div class="row">
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-          <h2 class="fw-normal">Gülçehre Abla</h2>
-          <p>Belki isim bölümünün altında bir şeyler yazarsa diye yer tutucu.</p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-          <h2 class="fw-normal">Ahmet Turankök</h2>
-          <p>Başka heyecan verici bir temsilci içerik parçası. Bu sefer, ikinci sütuna geçtik.
-
-          </p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-          <h2 class="fw-normal">İsim Soyisim</h2>
-          <p>Temsili içeriklerin 3.sü. Merak etme, herkesin ismi yazıyor olacak.</p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        
-      </div>
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">Komitenin ne yaptığına dair başlık. <span class="text-body-secondary">Kısa bir cümle v.s de olabilir.</span></h2>
-        <p class="lead">Bir ayı ile bir tavşan kafede oturmuşlar. Garson gelip sormuş: "Ne içersiniz?" Ayı demiş: "Ben bir bal şurubu alırım." Tavşan demiş: "Bana da aynısından, ama ayı ödeyecek." Bir tane daha geliyor: Tembel bir lamba neden hala yanmıyordu? Çünkü enerjisi yoktu!
-          Bu şakaları ChatGPT yazdı, çünkü sıkıcı ve bomboş şeyler yazmak tahmin ettiğinizden daha zor. 
-        </p>
-      </div>
-      <div class="col-md-5">
-        <div class="row">
-          <div class="col-lg-12 m-b-10">
-              <div class="ayar3">
-                  <h2>Neler Yapar</h2>
-              </div>
-          </div>
-          <div class="col-lg-12 m-b-30">
-              <h4><i class="icon-chevron-right" style="color: #d8261e;"></i> <a class="ayar4" href="eventsPage.html">TeaTalks Etkinliği</a></h4>
-          </div>
-          <div class="col-lg-12 m-b-30">
-              <h4><i class="icon-chevron-right" style="color: #d8261e;"></i> <a class="ayar4" href="eventsPage.html">Gelişim Serisi </a></h4>
-          </div>
-          <div class="col-lg-12">
-              <h4><i class="icon-chevron-right" style="color: #d8261e;"></i> <a class="ayar4" href="eventsPage.html">Dream On </a></h4>
-          </div>
-          <div class="col-lg-12">
-            <h4><i class="icon-chevron-right" style="color: #d8261e;"></i> <a class="ayar4" href="eventsPage.html">Köy Okulu Boyama Kampanyası </a></h4>
+    <div class="container">
+      <section>
+      <h2>Sıkça Sorulan Sorular</h2>
+      <div class="accordion">
+        <div class="accordion-item">
+          <button id="accordion-button-1" aria-expanded="false">
+            <span class="accordion-title">Büyük İskender, Aristo'dan ne tavsiye almış?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              büyük iskender, büyük filozof aristo’ya bir mektup yazıp sorar:
 
-      
+'zapt ettiğim topraklardaki insanları tahakkümüm altında tutabilmek için neler yapmalıyım?'
+
+ülkenin ileri gelen insanlarını sürgüne mi göndereyim, hapse mi atayım?
+yoksa hepsini kılıçtan mı geçireyim?
+
+aristo’dan cevap gelir:
+
+sürgünde toplanıp sana karşı başkaldırırlar.
+hapishaneler militan yuvası olur, kontrolden çıkar.
+onlardan sonraki kuşak intikam hırsıyla büyür, tahtını sallar.
+
+yazar aristo ve çözüm olarak da şu tavsiyeleri ekler:
+"insanların arasına nifak tohumları ekeceksin. birbirleriyle savaşınca, hakem olarak kendini kabul ettireceksin. ama anlaşmaya giden bütün yolları tıkayacaksın!"
+
+            </p>
+          </div>
         </div>
-        <div class="col-lg-12">
-          <h4><i class="icon-chevron-right" style="color: #d8261e;"></i> <a class="ayar4" href="eventsPage.html"> (Bu tuşların görünüşü geliştirilecektir.) </a></h4>
+        <div class="accordion-item">
+          <button id="accordion-button-2" aria-expanded="false">
+            <span class="accordion-title">Yaşlı bilgeye ne sormuşlar?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              yaşlı bir bilgeye sormuşlar:
+- "bize bilge olduğunu ıspatlar mısın?"
 
-    
-      </div>
-      </div>
+bilge yanıt vermiş:
+- "izin verin de size bir hikaye anlatayım.
+bir gün “köpek mi daha hızlı koşar, çita mı?” diye bir yarışma düzenlenir. köpekler koşmaya başlar ama, çita hareket dahi etmez. yarışı düzenleyen kişiye ne olduğu sorulur.
+o da şöyle der:
+- “bazen kendini kanıtlamaya çalışmak, kendine hakarettir.“
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-3" aria-expanded="false">
+            <span class="accordion-title">kaplumbağaya sormuşlar:</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              kaplumbağaya sormuşlar:
+- "buradan karşı yola ne kadar zamanda gidersin?"
+kaplumbağa cevap vermiş:
+- "yağmuru, çamuru, rüzgarı, inişleri, yokuşları hesap ettim... üç günlük yol ama ben altı günde giderim."
 
+altı gün geçmiş...
+ama kaplumbağa karşıya geçememiş. aramışlar taramışlar, yolun yarısında bulmuşlar kaplumbağayı.
+- "hayrola?" demişler.
+- "üç günlük yolu altı günde bile gidemedin."
+kaplumbağa cevap vermiş:
+- "sorma arkadaş! yağmuru, çamuru, inişi, yokuşu hesap ettim de, kötü insanları hesap edemedim. ne zaman hızla ilerlemeye başlasam tutup ters çevirdiler."
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-4" aria-expanded="false">
+            <span class="accordion-title"> "nasıl hep böyle telaşsız ve sakin kalabiliyorsunuz üstad?"</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              günlerden bir gün öğrencisi gelip, lao tzu'ya sorar:
+              - "nasıl hep böyle telaşsız ve sakin kalabiliyorsunuz üstad?"
+              
+              lao tzu:
+              - "oturduğumda oturuyorum, kalktığımda kalkıyorum, gittiğimde gidiyorum, yediğimde yiyorum" der.
+              
+              öğrencisi aniden lafını bölerek:
+              - "ama bunu ben de yapıyorum! başka ne yapıyorsun?" diye sorar.
+              
+              hala sakinliğini bozmayan lao tzu yine:
+              - "oturduğumda oturuyorum, kalktığımda kalkıyorum, gittigimde gidiyorum, yediğmde yiyorum" der.
+              
+              ögrencisi yine:
+              - "ama bunu ben de yapıyorum!" der.
+              
+              - "hayır" der hocası lao tzu:
+              - "sen otururken, kalkmayı düşünüyorsun; kalkarken, aklın gitmede oluyor; giderken, hedefine ulaşmış sayıyorsun kendini."
+              diyip telaşsız ve sakin bir şekilde oturmaya devam eder.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-5" aria-expanded="false">
+            <span class="accordion-title">Başka bir zen hikayesi daha anlatır mısın?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              vakti zamanında ülkenin birinde bir bilge yaşarmış. ona ne soru sorulursa sorulsun uygun bir cevabı muhakkak varmış. günlerden bir gün bu durumu çekemeyen bir adam demiş ki:
+              - bilgeye öyle bir soru soracağım ki, asla cevap veremeyecek.
+              
+              - peki ne soracaksın, demişler.
+              
+              - elimde bir kelebek var. ölü mü diri mi, diye soracağım. eğer diri cevabını verirse elimi sıkıp kelebeği öldüreceğim; ölü derse elimi açıp, bırakacağım uçsun gitsin. böylece ilk defa uygun bir cevap verememiş olacak.
+              
+              adam bu gazla koşarak bilgenin yanına gider ve sorusunu sorar:
+              - elimde bir kelebek var. ölü mü diri mi?
+              
+              bilge cevap verir:
+              - o senin elinde!
+            </p>
+          </div>
+        </div>
       </div>
+    </section>
     </div>
-
+    <script src="FaqScript.js"></script>
     <hr class="featurette-divider">
     </div>
 
@@ -323,6 +360,6 @@
         <p>&copy; 2017–2023 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
     </footer>
 </main>
-<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
