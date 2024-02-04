@@ -136,3 +136,11 @@ p {
   padding-right: 6rem;
   margin-bottom: 3em;
 }
+
+
+.custom-nav li{
+  margin-right: 3rem; /* Adjust the margin as needed */
+}
+
+.featurette-divider { margin: 2rem;}
+

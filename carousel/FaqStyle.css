@@ -269,8 +269,16 @@ body {
 .carousel-item-faq {
   height: 28rem;
 }
+/*
+.custom-nav li{
+  margin-right: 3rem !important; /* Adjust the margin as needed */
 
-
+/*
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+}
 /*
 
 

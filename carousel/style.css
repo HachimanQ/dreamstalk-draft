@@ -296,3 +296,8 @@ p {
   padding-left: 6rem;
   margin-bottom: 3em;
 }
+
+
+.custom-nav li{
+  margin-right: 3rem; /* Adjust the margin as needed */
+}
