@@ -18,7 +18,7 @@ function Head() {
         <title>Carousel Template · Bootstrap v5.3</title>
         <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3" />
-        <link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet" />
         <style>
           {`
             .bd-placeholder-img {
@@ -89,7 +89,7 @@ function Head() {
             }
           `}
         </style>
-        <link href="carousel.css" rel="stylesheet" />
+        <link href="public\carousel.css" rel="stylesheet" />
       </head>
     );
   }

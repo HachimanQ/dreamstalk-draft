@@ -51,7 +51,17 @@ https://ytukvk.org.tr/
  
 3- Content should fade in when page scrolled down automatically. it will look better.
 
+/***************************************************************
+****************************************************************
+****************************************************************
+***************************************************************/
+
+!! LONG AWAITED VERSION 2 NOTES !!
+
+1- 
 
 
 
+Trivial: 
+1- Find the correct font, I couldn't find it on my own. Must be a spelling error.
 

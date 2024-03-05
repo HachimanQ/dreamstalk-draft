@@ -1,0 +1,2 @@
+# node_modules (this was recommended by vscode itself, but it may cause troubles so it will not be excluded until it's tried)
+node_modules
